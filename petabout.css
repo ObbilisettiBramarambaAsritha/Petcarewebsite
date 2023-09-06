@@ -34,7 +34,7 @@ nav ul li a:hover{
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 body{
-    background-image: url(/petcareimages/background.jfif);
+    background-image: url(petcareimages/background.jfif);
     background-size: cover;
 }
 .cl1 h1{
