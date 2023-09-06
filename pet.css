@@ -1,0 +1,66 @@
+*{
+    margin:0 ;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-image:url(/petcare/petcareimages/pet1.jpg) ;
+    background-size:cover ;
+}
+.cl{
+    display: flex;
+    justify-content:space-between;
+    color: blue;
+    background-color: rgb(235, 238, 241);
+    line-height: 30px;
+    
+}
+ul {
+    display: flex;
+    line-height: 60px;
+}
+nav ul li{
+    margin-left: 30px ;
+}
+.cl img{
+    margin-left: 20px ;
+    margin-top: 5px;
+    border-radius: 80px;
+    background-color:red;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+h1{
+    color: orangered;
+}
+h2{
+    color:gold;
+}
+.cl1{
+   margin-top: 14%;
+   margin-left: 33%;
+}
+p{
+    color: green;
+    font-size: 20px;
+
+}
+.cls1{
+    height: 55%;
+    width: 30%;
+    position: absolute;
+    right: 7%;
+    top:34%; 
+}
+.cls1 img{
+    border-radius: 30px;
+}
+.cl1 img{
+   border-radius: 20px;
+}

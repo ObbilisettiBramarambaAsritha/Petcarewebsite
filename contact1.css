@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-image:url(/petcare/petcareimages/ph1.jpg) ;
+    background-size:cover ;
+}
+.cl{
+    display: flex;
+    justify-content:space-between;
+    color: blue;
+    background-color: rgb(235, 238, 241);
+    line-height: 30px;
+    
+}
+ul {
+    display: flex;
+    line-height: 60px;
+}
+nav ul li{
+    margin-left: 30px ;
+}
+.cl img{
+    margin-left: 20px ;
+    margin-top: 5px;
+    border-radius: 80px;
+    background-color:red;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+form input{
+    width:30%;
+    line-height: 30%;
+}
+form{
+    margin-left: 25%;
+}
+label{
+    font-size: 30px;
+    color: white;
+}
+p{
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+h1{
+    color: gold;
+}
+button{
+    background-color: aliceblue;
+}

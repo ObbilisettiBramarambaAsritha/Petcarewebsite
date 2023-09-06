@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.cl{
+    display: flex;
+    justify-content:space-between;
+    color: blue;
+    background-color: rgb(235, 238, 241);
+    line-height: 30px;
+    
+}
+ul {
+    display: flex;
+    line-height: 60px;
+}
+nav ul li{
+    margin-left: 30px ;
+}
+.cl img{
+    margin-left: 20px ;
+    margin-top: 5px;
+    border-radius: 80px;
+    background-color:red;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+body{
+    background-image: url(/petcare/petcareimages/background.jfif);
+    background-size: cover;
+}
+.cl1 h1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.cl1 p{
+    color:green;
+    font-size: 20px;
+}
+h2{
+   color: purple;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+   color: blue;
+   font-family: 'Times New Roman', Times, serif;
+   font-size:20px;
+   margin-right: 50px;
+}
+.cla{
+    display: flex;
+}
+.cl1{
+    margin-left: 100px;
+}
+.cla img{
+    border-radius: 100px;
+}
